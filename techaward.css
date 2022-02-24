@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: white;
+    min-height: 300px;
+    padding: 7.5px 15px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.bigbox::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.topbox{
+    width: 100%;
+    height:550px;
+}
+
+.leftbox{
+    float: left;
+    width: 49%;
+    height:550px;
+    background-color:  white;
+    padding: 10px 10px ;
+}
+
+.rightbox{
+    float: right;
+    width: 49%;
+    height:550px;
+    background-color:  white;
+    padding: 10px 10px ;
+}
+
+.bottombox{
+    width: 100%;
+    height:450px;
+    background-color:  white;
+    padding: 10px 10px ;
+    margin-top: 20px;
+}
+
+.left{
+    float: left;
+    width: 30%;
+}
+
+.right{
+    float: left;
+    width: 55%;
+    margin-left: 64px;
+    padding-top: 90px;
+   padding-bottom: 90px;
+}
+
+.right p{
+    display: flex;
+    justify-content: center;
+}
+
+
+imgphone{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
